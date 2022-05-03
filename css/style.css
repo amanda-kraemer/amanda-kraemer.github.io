@@ -30,7 +30,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
-  margin-top: 44px 40px;
+  margin: 44px 40px;
 
   justify-items: center;
   justify-content: center;
@@ -95,7 +95,6 @@ img {
 .myButton:hover {
     background-color: #6f0000;
 }
-}
 
 .myButton:active {
     position:relative;
@@ -103,7 +102,7 @@ img {
 }
 
 .project {
-  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%)
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);
   width: 100%;
 }
 
@@ -159,7 +158,7 @@ footer div {
   justify-content: space between;
   padding: 10px 20px;
   color: rgba(255, 255, 255, 0.5);
-  
+
 }
 .copyright {
   margin: auto 0;
@@ -177,7 +176,6 @@ footer div {
 
 .icons a:hover {
   color: rgb(255, 255, 255, 0.8);
-}
 }
 
 @media all and (max-width:700px) {
